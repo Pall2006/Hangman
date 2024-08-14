@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class FileReader {
 
-    private File file = new File("src/dictionary.txt");
+    private File file = new File("dictionary.txt");
 
     public String randomWord() {
         try (Scanner scanner = new Scanner(file)) {
